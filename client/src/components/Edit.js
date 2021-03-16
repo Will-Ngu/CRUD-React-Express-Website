@@ -222,6 +222,9 @@ export default function Edit() {
         onChange = {e=>handleInputChange(e.target.value, setTraining)}
         />
       </div>
+      <Typography style={{color: 'black',fontWeight:'bold'}} variant="h6" gutterBottom component="div">
+        Add Steps
+      </Typography>
       <div className="form-row">
           {steps.map((stepInput, index) => (
             <Fragment key={`${stepInput}~${index}`}>
