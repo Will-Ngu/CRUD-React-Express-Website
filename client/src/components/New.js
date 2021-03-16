@@ -186,7 +186,7 @@ function Form() {
             onChange = {e=>handleInputChange(e.target.value, setPpe)}
             />
           </div>
-          <Input  style={{ width:'50%'}}
+          <Input  style={{marginTop:"10px", width:'50%'}}
           placeholder='Required Training' 
           value={training}
           // onChange={e=>setName(e.target.value)} 
